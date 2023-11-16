@@ -1,0 +1,11 @@
+<button
+  class="btn transform hover:scale-105 transition duration-200"
+>
+  <div *ngIf="!text" class="min-w-max mr-4">
+    <div class="loader"></div>
+  </div>
+
+  <div>
+    {{ text }}
+  </div>
+</button>
